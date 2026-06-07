@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="main-header">
+<div class="container">
+<h1>Как нас найти и сделать заказ</h1>
+</div>
+</header>
+<nav class="main-nav">
+<ul>
+<li><a href="index.html">Главная</a></li>
+<li><a href="about.html">О нас</a></li>
+<li><a href="contact.html">Контакты и Заказ</a></li>
+</ul>
+</nav>
+<main class="container">
+<section class="contact-info">
+<h2>Наши контакты</h2>
+<p><strong>Наш адрес:</strong> г. Гомель, ул. Советская, д. 10
+!!! (можете придумать свой) !!!</p>
+<p><strong>Телефон:</strong> +375 (29) 123-45-67</p>
+<p><strong>Время работы:</strong> Ежедневно с 10:00 до 20:00</p>
+<p><strong>Как проехать:</strong> Остановка "Универмаг", вход со
+двора.</p>
+WEBMASTER преподаватель Виноградова Ольга Леонидовна 2
+<div class="map">
+<h3>Мы на карте:</h3>
+<p>!!! СЮДА НУЖНО ВСТАВИТЬ КОД КАРТЫ (IFRAME) !!!</p>
+</div>
+</section>
+<hr> <section class="order-section">
+<h2>Оформление заказа</h2>
+<form action="thanks.html" method="get" class="order-form">
+<div class="form-group">
+<h3>1. Ваши данные</h3>
+<ul>
+<li>Имя: <input type="text" name="name" required></li>
+<li>Телефон: <input type="tel" name="phone" required></li>
+</ul>
+</div>
+<div class="form-group">
+<h3>2. Детали заказа</h3>
+<p>Выберите основной вариант <em>(только один)</em>:</p>
+<ul>
+<li><input type="radio" name="type" value="v1"> !!!
+Вариант 1 (например: Классика) !!!</li>
+<li><input type="radio" name="type" value="v2"> !!!
+Вариант 2 (например: Премиум) !!!</li>
+</ul>
+</div>
+<div class="form-group">
+<h3>3. Дополнительные опции</h3>
+<p>Что добавить? <em>(можно выбрать несколько)</em>:</p>
+<ul>
+<li><input type="checkbox" name="opt1"> !!! Опция 1
+(например: Доставка курьером) !!!</li>
+<li><input type="checkbox" name="opt2"> !!! Опция 2
+(например: Подарочная упаковка) !!!</li>
+</ul>
+</div>
+<div class="form-group">
+<p>Комментарий к заказу:</p>
+<textarea name="comment" rows="3" cols="40"
+placeholder="Напишите здесь..."></textarea>
+</div>
+<br>
+<button type="submit">Подтвердить заказ</button>
+</form>
+</section>
+</main>
+<footer class="main-footer">
+<p>&copy; <script>document.write(new Date().getFullYear())</script>
+!!! Ваше Имя и Фамилия !!!</p>
+</footer>
+</body>
+</html>
